@@ -134,7 +134,7 @@ const lotes = {
 
     lote12: {
         numero: "12",
-        estado: "Disponible",
+        estado: "Vendido",
         frente: "15.00 m",
         fondo: "26.60 m",
         superficie: "399.00 m²",
@@ -290,7 +290,7 @@ const lotes = {
 
     lote25: {
         numero: "25",
-        estado: "Vendido",
+        estado: "Disponible",
         frente: "15.00 m",
         fondo: "26.60 m",
         superficie: "399.00 m²",

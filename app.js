@@ -48,6 +48,8 @@ lote.style.stroke = "#FFD700";
 lote.style.strokeWidth = "5";;
             const info = lotes[id];
 
+console.log(info);
+
             document.getElementById("tituloLote").textContent =
                 `Lote ${info.numero}`;
 
@@ -75,8 +77,22 @@ lote.style.strokeWidth = "5";;
 document.getElementById("mensualidad").textContent =
     info.mensualidad;
         });
+// ==============================
+// BOTÓN DE WHATSAPP
+// ==============================
 
-    });
+const mensaje = `Hola, me interesa el Lote ${info.numero} del desarrollo Bosques de Metepec.
+
+Estado: ${info.estado}
+Superficie: ${info.superficie}
+Precio: ${info.precioTotal}
+Enganche: ${info.enganche}
+Mensualidad: ${info.mensualidad}
+
+¿Podrían brindarme más información?`;
+
+document.getElementById("btnWhatsapp").href =
+    "https://wa.me/527131010200?text=" + encodeURIComponent(mensaje);
 // ==============================
 // CONTADORES
 // ==============================

@@ -4,6 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
 console.log(id);
         const lote = document.getElementById(id);
 
+if(id === "lote21"){
+    alert("Encontré el lote 21");
+}
+
         if (!lote) {
             console.warn(`No existe el objeto ${id} en el SVG.`);
             return;

@@ -45,10 +45,17 @@ document.querySelectorAll("svg [id^='lote']").forEach(el => {
 });
 
 // Seleccionar lote actual
-lote.style.stroke = "#FFD700";
-lote.style.strokeWidth = "5";;
+lote.style.stroke = "#C79A3A";
+lote.style.strokeWidth = "2";;
             const info = lotes[id];
+const panel = document.getElementById("panel");
 
+panel.classList.remove("animarPanel");
+
+// Reinicia la animación
+void panel.offsetWidth;
+
+panel.classList.add("animarPanel");
 console.log(info);
 
             document.getElementById("tituloLote").textContent =

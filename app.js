@@ -92,7 +92,7 @@ Mensualidad: ${info.mensualidad}
 ¿Podrían brindarme más información?`;
 
 document.getElementById("btnWhatsapp").href =
-    "https://wa.me/527131010200?text=" + encodeURIComponent(mensaje);
+    "https://wa.me/527131010200?text=" + encodeURIComponent(mensaje);});
 // ==============================
 // CONTADORES
 // ==============================

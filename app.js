@@ -89,7 +89,7 @@ Enganche: ${info.enganche}
 Mensualidad: ${info.mensualidad}
 
 
-¿Podrían brindarme más información?`;
+¿Me podrían agendar una cita esta semana?`;
 
 document.getElementById("btnWhatsapp").href =
     "https://wa.me/527131010200?text=" + encodeURIComponent(mensaje);

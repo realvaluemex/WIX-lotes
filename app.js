@@ -46,7 +46,7 @@ document.querySelectorAll("svg [id^='lote']").forEach(el => {
 
 // Seleccionar lote actual
 lote.style.stroke = "#C79A3A";
-lote.style.strokeWidth = "2";;
+lote.style.strokeWidth = "4";;
             const info = lotes[id];
 const panel = document.getElementById("panel");
 

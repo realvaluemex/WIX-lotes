@@ -88,10 +88,15 @@ Precio: ${info.precioTotal}
 Enganche: ${info.enganche}
 Mensualidad: ${info.mensualidad}
 
+
 ¿Podrían brindarme más información?`;
 
 document.getElementById("btnWhatsapp").href =
-    "https://wa.me/527131010200?text=" + encodeURIComponent(mensaje);});
+    "https://wa.me/527131010200?text=" + encodeURIComponent(mensaje);
+
+        }); // Cierra click
+
+    }); // Cierra Object.keys().forEach
 // ==============================
 // CONTADORES
 // ==============================

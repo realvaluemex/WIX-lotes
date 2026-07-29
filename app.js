@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     Object.keys(lotes).forEach(id => {
-
+console.log(id);
         const lote = document.getElementById(id);
 
         if (!lote) {

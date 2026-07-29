@@ -76,7 +76,6 @@ console.log(info);
 
 document.getElementById("mensualidad").textContent =
     info.mensualidad;
-        });
 // ==============================
 // BOTÓN DE WHATSAPP
 // ==============================

@@ -13,6 +13,9 @@ if(id === "lote21"){
             return;
         }
         const estado = lotes[id].estado.toLowerCase();
+        if(id === "lote21"){
+    alert("Estado = " + estado);
+}
 
 lote.classList.remove(
     "disponible",

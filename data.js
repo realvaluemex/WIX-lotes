@@ -242,7 +242,7 @@ const lotes = {
 
     lote21: {
         numero: "21",
-        estado: "Disponible",
+        estado: "Apartado",
         frente: "12.00 m",
         fondo: "26.60 m",
         superficie: "319.20 m²",
